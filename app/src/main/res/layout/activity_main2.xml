@@ -1,9 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="@drawable/kuru"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/tarea"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="LISTA DE TAREAS"
+            android:textAlignment="center"
+            android:textColor="#FF99FF"
+            android:fontFamily="sans-serif-black"
+            android:background=""
+            android:textSize="70px"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="42dp" />
+
+        <EditText
+            android:id="@+id/ingreso"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:background="#33FFFF"
+            android:textSize="70px"/>
+        <TextView
+            android:id="@+id/tareas"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:background="#9999FF"
+            android:textSize="50px"/>
+
+        <Button
+            android:id="@+id/Añadir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Añadir" />
+        <Button
+            android:id="@+id/Borrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-120dp"
+            android:layout_marginTop="-48dp"
+            android:text="Borrar" />
+        <Button
+            android:id="@+id/Buscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="-48dp"
+            android:text="Buscar" />
+
+
+
+
+    </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
