@@ -62,9 +62,7 @@ public class MainActivity2 extends AppCompatActivity {
                     }
                 }
                 if (tareaEncontrada) {
-                    Intent intent = new Intent(MainActivity2.this, DisplayTaskActivity.class);
-                    intent.putExtra("TASK_NAME", tareaBuscada);
-                    startActivity(intent);
+                    nombre.setText("Tarea encontrada: " + tareaBuscada);
                 } else {
                     nombre.setText("Tarea no encontrada");
                 }

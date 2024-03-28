@@ -25,7 +25,6 @@
             android:textAlignment="center"
             android:textColor="#FF99FF"
             android:fontFamily="sans-serif-black"
-            android:background=""
             android:textSize="70px"/>
 
         <ImageView
@@ -41,6 +40,7 @@
             android:layout_marginTop="5dp"
             android:textColor="@color/black"
             android:background="#33FFFF"
+            android:hint="Ingrese su Tarea"
             android:textSize="70px"/>
         <TextView
             android:id="@+id/tareas"
